@@ -20,6 +20,15 @@ const APP_DIR = path.resolve(__dirname, 'client/app');
             test : /\.jsx?/,
             include : APP_DIR,
             loader : 'babel-loader'
+          },
+          {
+            test: /\.html$/,
+            include: APP_DIR,
+            loader: 'html-loader?attrs[]=video:src'
+          }, 
+          {
+            test: /\.mp4$/,
+            loader: 'url-loader?limit=10000&mimetype=video/mp4'
           }
          ],
      },
