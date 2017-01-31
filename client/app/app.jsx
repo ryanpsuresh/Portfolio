@@ -20,7 +20,7 @@ const App = () => (
               <li><a href="https://github.com/ricochen" target="_blank"><i className="fa fa-github fa-2x"></i></a></li>
               <li><a href="https://linkedin.com/in/ricochenx" target="_blank"><i className="fa fa-linkedin-square fa-2x"></i></a></li>
               <li><a className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="ricochenx@gmail.com"><i className="fa fa-envelope-o fa-2x"></i></a></li>
-              <li><a href="http://ricochenx.com/blog">Blog</a></li>
+              <li><a href="https://github.com/ricochen" target="_blank"><i className="fa fa-id-card fa-2x"></i></a></li>
             </ul>
           </div>
           </div>
