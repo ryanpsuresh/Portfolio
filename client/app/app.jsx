@@ -14,6 +14,16 @@ const App = () => (
           <div className="col s12">
             <h3>Software Engineer</h3> 
           </div>
+          <div className="col s12">
+          <div className="icons">
+            <ul>
+              <li><a href="https://github.com/ricochen" target="_blank"><i className="fa fa-github fa-2x"></i></a></li>
+              <li><a href="https://linkedin.com/in/ricochenx" target="_blank"><i className="fa fa-linkedin-square fa-2x"></i></a></li>
+              <li><a className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="ricochenx@gmail.com"><i className="fa fa-envelope-o fa-2x"></i></a></li>
+              <li><a href="http://ricochenx.com/blog">Blog</a></li>
+            </ul>
+          </div>
+          </div>
         </div>
     </div>
   </div>

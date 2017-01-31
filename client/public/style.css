@@ -1,3 +1,15 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
 video {
   position: fixed;
   top: 50%;
@@ -18,7 +30,10 @@ video {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   background: rgba(138,138,138,.3);
 }
 
@@ -28,4 +43,26 @@ video {
   margin: auto;
 }
 
+.icons {
+  padding: 16px;
+}
+
+.icons li {
+  display: inline;
+}
+
+.icons a {
+  padding: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.icons a:hover, #skills h1 a {
+  color: black;
+}
+
+.icons li:last-child {
+  font-size: 1.4em;
+  margin-left: -8px;
+}
 
