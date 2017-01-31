@@ -4,16 +4,18 @@ const mp4 = require('../public/video.mp4');
 
 const App = () => (
   <div>
-  <Video autoPlay muted loop>
-    <source src={mp4} type="video/mp4"/> Your browser does not support the video tag. 
-  </Video>
-  <div class="container valign-wrapper" id="header">
-      <div class="row valign center-align">
-        <div class="col s12">
-          <h1>Ryan Suresh</h1></div>
-        <div class="col s12">
-          <h3>Software Engineer</h3> </div>
-        <div class="col s12">
+    <Video autoPlay muted loop>
+      <source src={mp4} type="video/mp4"/> Your browser does not support the video tag. 
+    </Video>
+    <div class="container valign-wrapper" id="header">
+      <div class="valign center-align">
+        <div >
+          <h1>Ryan Suresh</h1>
+        </div>
+        <div >
+          <h3>Software Engineer</h3> 
+        </div>
+        <div >
           <div class="icons">
             <ul>
               <li><a href="https://github.com/ryanpsuresh" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
@@ -24,7 +26,7 @@ const App = () => (
         </div>
       </div>
     </div>
-    </div>
+  </div>
 );
 
 export default App;
