@@ -16,7 +16,7 @@ const Homepage = () => (
           <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
             <Link className="btn btn-default link" href="https://github.com/ryanpsuresh" >Home</Link>
             <Link className="btn btn-default link" href="https://github.com/ryanpsuresh" >Projects</Link>
-            <Link className="btn btn-default link" href="https://github.com/ryanpsuresh" >Skills</Link>
+            <Link className="btn btn-default link" to='/skillspage' >Skills</Link>
         </div>
         </div>
         </div>
