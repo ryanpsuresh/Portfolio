@@ -62,7 +62,7 @@ video {
   color: black;
 }
 
-.page-icons a {
+.page-icons .link {
   text-decoration: none;
   color: white;
   font-weight: lighter;
