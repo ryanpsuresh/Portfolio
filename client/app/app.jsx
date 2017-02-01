@@ -4,17 +4,7 @@ import { Carousel, CarouselItem, OverlayTrigger, Tooltip } from 'react-bootstrap
 import { React_Boostrap_Carousel } from 'react-boostrap-carousel';
 const mp4 = require('../public/video.mp4');
 
-const App = () => {
-
-const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-
-return (
+const App = () => (
   <div>
     <Video autoPlay muted>
       <source src={mp4} type="video/mp4"/> Your browser does not support the video tag. 
@@ -53,12 +43,4 @@ return (
 
 );
 
-}
-
 export default App;
-
-// <ul>
-//           <li><a href="https://github.com/ryanpsuresh" target="_blank"><i className="fa fa-suitcase fa-4x"></i></a></li>
-//           <li><a href="https://github.com/ryanpsuresh" target="_blank"><i className="fa fa-home fa-4x"></i></a></li>
-//           <li><a href="https://github.com/ryanpsuresh" target="_blank"><i className="fa fa-cogs fa-4x"></i></a></li>
-//           </ul>
