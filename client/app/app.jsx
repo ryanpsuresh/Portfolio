@@ -16,7 +16,7 @@ const settings = {
 
 return (
   <div>
-    <Video autoPlay muted loop>
+    <Video autoPlay muted>
       <source src={mp4} type="video/mp4"/> Your browser does not support the video tag. 
     </Video>
       <div className="container valign-wrapper" id="header">
