@@ -6,19 +6,18 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 const Skillspage = () => (
   <RouteTransition
-  pathname={`/skillspage`}
-  atEnter={{ translateX: -100 }}
-  atLeave={{ translateX: 100 }}
-  atActive={{ translateX: 0 }}
-  mapStyles={styles => ({ transform: `translateX(${styles.translateX}%)` })}
->
-  <div className="skillsbg">
+    pathname={`/skillspage`}
+    atEnter={{ translateX: -100 }}
+    atLeave={{ translateX: 100 }}
+    atActive={{ translateX: 0 }}
+    mapStyles={styles => ({ transform: `translateX(${styles.translateX}%)` })}>
+    <div className="skillsbg">
       <div className="container" id="skills">
-          <Link className="btn btn-default homebutton" to='/'>Home</Link>
-          <div className="skillsheader">
-            <h1>SKILLS</h1> 
-          </div>
-          <div className='row'>
+        <Link className="btn btn-default homebutton" to='/'>Home</Link>
+        <div className="skillsheader">
+          <h1>SKILLS</h1> 
+        </div>
+        <div className='row'>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
               <h4><i className="fa fa-book fa-3x"></i> <span className='headers'>Languages</span></h4>
@@ -55,8 +54,8 @@ const Skillspage = () => (
               <li>Heroku</li>
             </ul>
           </div>
-          </div>
-          <div className='row'>
+        </div>
+        <div className='row'>
           <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered holder'>
             <ul className="skillList">
               <h4><i className="fa fa-plus fa-3x"></i> <span className='headers'>Additional</span></h4>
@@ -75,10 +74,10 @@ const Skillspage = () => (
               <li>Hack Reactor</li>
             </ul>
           </div>
-          </div>
         </div>
+      </div>
     </div>
-</RouteTransition>
+  </RouteTransition>
 
 );
 
