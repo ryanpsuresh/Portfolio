@@ -29,10 +29,10 @@ const Homepage = () => (
           <div className="col s12">
           <div className="icons">
             <ul>
-              <li><a href="https://github.com/ryanpsuresh" target="_blank"><i className="fa fa-github fa-2x"></i></a></li>
-              <li><a href="https://linkedin.com/in/ryansuresh" target="_blank"><i className="fa fa-linkedin-square fa-2x"></i></a></li>
-              <li><a className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="ryanpsuresh@gmail.com"><i className="fa fa-envelope-o fa-2x"></i></a></li>
-              <li><a href="https://www.dropbox.com/s/008ig7drzwckqjl/Resume.pdf?dl=0" target="_blank"><i className="fa fa-id-card fa-2x"></i></a></li>
+              <li><OverlayTrigger placement='bottom' overlay={<Tooltip id="tooltip"><strong>github</strong></Tooltip>}><a href="https://github.com/ryanpsuresh" target="_blank"><i className="fa fa-github fa-2x"></i></a></OverlayTrigger></li>
+              <li><OverlayTrigger placement='bottom' overlay={<Tooltip id="tooltip"><strong>Linkedin</strong></Tooltip>}><a href="https://linkedin.com/in/ryansuresh" target="_blank"><i className="fa fa-linkedin fa-2x"></i></a></OverlayTrigger></li>
+              <li><OverlayTrigger placement='bottom' overlay={<Tooltip id="tooltip"><strong>Email</strong></Tooltip>}><a href="https://linkedin.com/in/ryansuresh" target="_blank"><i className="fa fa-envelope-o fa-2x"></i></a></OverlayTrigger></li>             
+              <li><OverlayTrigger placement='bottom' overlay={<Tooltip id="tooltip"><strong>Resume</strong></Tooltip>}><a href="https://www.dropbox.com/s/008ig7drzwckqjl/Resume.pdf?dl=0" target="_blank"><i className="fa fa-id-card fa-2x"></i></a></OverlayTrigger></li>             
             </ul>
           </div>
           </div>
@@ -43,3 +43,5 @@ const Homepage = () => (
 );
 
 export default Homepage;
+
+
