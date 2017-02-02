@@ -3,6 +3,7 @@ import Video from 'react-html5video';
 import { Link } from 'react-router';
 import { RouteTransition } from 'react-router-transition';
 import travelAppImage from '../public/TravelApp.png';
+import rehjeksImage from '../public/Rehjeks.png';
 
 
 const Projectspage = () => (
@@ -27,7 +28,8 @@ const Projectspage = () => (
                 <img className="card-img-top" src={travelAppImage} alt="Card image cap"/>
                 <div className="card-block">
                 <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
+                <a href="http://ec2-35-167-66-182.us-west-2.compute.amazonaws.com:8000/#/" className="btn btn-primary portfoliobutton">Website</a>
+                <a href="https://github.com/ryanpsuresh/TravelApp" className="btn btn-primary portfoliobutton pull-right">Github</a>
               </div>
             </div>
           </div>
@@ -35,11 +37,12 @@ const Projectspage = () => (
         <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
           <div className='jumbotron portfolioFrame'>
             <div className="card stack">
-            <h4 className="card-title">Travel App</h4>
-            <img className="card-img-top" src={travelAppImage} alt="Card image cap"/>
+            <h4 className="card-title">RehJeks</h4>
+            <img className="card-img-top" src={rehjeksImage} alt="Card image cap"/>
             <div className="card-block">
             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" className="btn btn-primary">Go somewhere</a>
+            <a href="https://rehjeks.herokuapp.com/" className="btn btn-primary portfoliobutton">Website</a>
+            <a href="https://github.com/BackAlleyHax/RehJeks" className="btn btn-primary portfoliobutton pull-right">Github</a>
             </div>
           </div>
         </div>

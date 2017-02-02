@@ -150,6 +150,13 @@ ul {
 
 .portfolioFrame {
   margin-top: 20px;
+  min-height: 100%;
+}
+
+.portfoliobutton {
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 150px;
 }
 
 .card-title {
