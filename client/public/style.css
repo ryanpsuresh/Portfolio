@@ -88,7 +88,7 @@ video {
 }
 
 .skillsbg {
-  background-color: dodgerblue;
+  background-color:rgb(107,218,237);  
   min-height: 100%;
   width: 100%;
   height: 100%;
@@ -96,12 +96,14 @@ video {
 }
 
 .skillsheader {
+  color: black;
   text-align: center;
   margin: 0 auto;
   width: 20%;
 }
 
 .skillList {
+  color: black;
   text-align: center;
   min-width: 100%;
   min-height: 100%;
