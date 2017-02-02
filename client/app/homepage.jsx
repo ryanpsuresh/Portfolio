@@ -14,8 +14,8 @@ const Homepage = () => (
         <div className='col s12'>
         <div className='page-icons'>
           <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
-            <Link className="btn btn-default link" href="https://github.com/ryanpsuresh" >Home</Link>
-            <Link className="btn btn-default link" href="https://github.com/ryanpsuresh" >Projects</Link>
+            <Link className="btn btn-default link" to='/projectspage' >Projects</Link>
+            <Link className="btn btn-default link" to='/projectspage' >Resume</Link>
             <Link className="btn btn-default link" to='/skillspage' >Skills</Link>
         </div>
         </div>
