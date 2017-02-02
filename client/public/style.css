@@ -66,6 +66,7 @@ video {
   text-decoration: none;
   color: white;
   font-weight: lighter;
+  width: 175px;
 }
 
 .page-icons a:hover, #skills h1 a {
