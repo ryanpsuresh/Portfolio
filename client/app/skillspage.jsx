@@ -7,8 +7,8 @@ import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 const Skillspage = () => (
   <RouteTransition
   pathname={`/skillspage`}
-  atEnter={{ translateX: 100 }}
-  atLeave={{ translateX: -100 }}
+  atEnter={{ translateX: -100 }}
+  atLeave={{ translateX: 100 }}
   atActive={{ translateX: 0 }}
   mapStyles={styles => ({ transform: `translateX(${styles.translateX}%)` })}
 >
