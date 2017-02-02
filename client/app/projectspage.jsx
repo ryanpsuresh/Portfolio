@@ -21,7 +21,7 @@ const Projectspage = () => (
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-book fa-4x"></i> Languages</h4>
+              <h4><i className="fa fa-book fa-4x"></i><span className='headers'>Languages</span></h4>
               <li>JavaScript</li>
               <li>HTML</li>
               <li>CSS</li>
@@ -31,7 +31,7 @@ const Projectspage = () => (
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-skyatlas fa-4x"></i> Frameworks</h4>
+              <h4><i className="fa fa-skyatlas fa-4x"></i> <span className='headers'>Frameworks</span></h4>
               <li>React.js</li>
               <li>Redux</li>
               <li>AngularJS</li>
@@ -45,7 +45,7 @@ const Projectspage = () => (
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-database fa-4x"></i> Tools</h4>
+              <h4><i className="fa fa-database fa-4x"></i> <span className='headers'>Tools</span></h4>
               <li>Git</li>
               <li>PostgreSQL</li>
               <li>MySQL</li>

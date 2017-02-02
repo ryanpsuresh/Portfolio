@@ -21,7 +21,7 @@ const Skillspage = () => (
           <div className='row'>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-book fa-4x"></i> Languages</h4>
+              <h4><i className="fa fa-book fa-3x"></i> <span className='headers'>Languages</span></h4>
               <li>JavaScript</li>
               <li>HTML</li>
               <li>CSS</li>
@@ -31,7 +31,7 @@ const Skillspage = () => (
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-skyatlas fa-4x"></i> Frameworks</h4>
+              <h4><i className="fa fa-skyatlas fa-3x"></i> <span className='headers'>Frameworks</span></h4>
               <li>React.js</li>
               <li>Redux</li>
               <li>AngularJS</li>
@@ -45,7 +45,7 @@ const Skillspage = () => (
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-wrench fa-4x"></i> Tools</h4>
+              <h4><i className="fa fa-wrench fa-3x"></i> <span className='headers'>Tools</span></h4>
               <li>Git</li>
               <li>PostgreSQL</li>
               <li>MySQL</li>
@@ -59,7 +59,7 @@ const Skillspage = () => (
           <div className='row'>
           <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-plus fa-4x"></i> Additional</h4>
+              <h4><i className="fa fa-plus fa-3x"></i> <span className='headers'>Additional</span></h4>
               <li>Scrum methodology</li>
               <li>Sketch wireframing</li>
               <li>Adobe Photoshop</li>
@@ -70,7 +70,7 @@ const Skillspage = () => (
           </div>
           <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-graduation-cap fa-4x"></i> Education</h4>
+              <h4><i className="fa fa-graduation-cap fa-3x"></i> <span className='headers'>Education</span></h4>
               <li>Brown University</li>
               <li>Hack Reactor</li>
             </ul>
