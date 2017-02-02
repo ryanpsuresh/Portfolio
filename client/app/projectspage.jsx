@@ -24,10 +24,10 @@ const Projectspage = () => (
           <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
             <div className='jumbotron portfolioFrame'>
               <div className="card stack">
-                <h4 className="card-title">Travel App</h4>
+                <h2 className="card-title">Travel App</h2>
                 <img className="card-img-top" src={travelAppImage} alt="Card image cap"/>
                 <div className="card-block">
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text">A one-stop outdoor vacation planner with integrated directions and robust trail data</p>
                 <a href="http://ec2-35-167-66-182.us-west-2.compute.amazonaws.com:8000/#/" className="btn btn-primary portfoliobutton">Website</a>
                 <a href="https://github.com/ryanpsuresh/TravelApp" className="btn btn-primary portfoliobutton pull-right">Github</a>
               </div>
@@ -37,10 +37,10 @@ const Projectspage = () => (
         <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
           <div className='jumbotron portfolioFrame'>
             <div className="card stack">
-            <h4 className="card-title">RehJeks</h4>
+            <h2 className="card-title">RehJeks</h2>
             <img className="card-img-top" src={rehjeksImage} alt="Card image cap"/>
             <div className="card-block">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p className="card-text">A learning based platform designed to help users enhance their regular expression knowledge</p>
             <a href="https://rehjeks.herokuapp.com/" className="btn btn-primary portfoliobutton">Website</a>
             <a href="https://github.com/BackAlleyHax/RehJeks" className="btn btn-primary portfoliobutton pull-right">Github</a>
             </div>
