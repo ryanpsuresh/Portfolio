@@ -3,7 +3,7 @@ import Video from 'react-html5video';
 import { Link } from 'react-router';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 import mp4 from '../public/video.mp4';
-import pdf from '../public/resume.pdf';
+import pdf from '../public/Resume.pdf';
 
 const Homepage = () => (
   <div>
