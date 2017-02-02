@@ -17,7 +17,7 @@ const Projectspage = () => (
         <div className="row center-align">
           <Link className="btn btn-default homebutton" to='/'>Home</Link>
           <div className="skillsheader">
-            <h1>SKILLS</h1> 
+            <h1>PROJECTS</h1> 
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">

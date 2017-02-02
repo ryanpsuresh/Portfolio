@@ -14,11 +14,11 @@ const Skillspage = () => (
 >
   <div className="skillsbg">
       <div className="container" id="skills">
-        <div className="row center-align">
           <Link className="btn btn-default homebutton" to='/'>Home</Link>
           <div className="skillsheader">
             <h1>SKILLS</h1> 
           </div>
+          <div className='row'>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
               <h4><i className="fa fa-book fa-4x"></i> Languages</h4>
@@ -26,7 +26,7 @@ const Skillspage = () => (
               <li>HTML</li>
               <li>CSS</li>
               <li>SQL</li>
-              <li>Python</li>
+              <li>Java</li>
             </ul>
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
@@ -45,7 +45,7 @@ const Skillspage = () => (
           </div>
           <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
             <ul className="skillList">
-              <h4><i className="fa fa-database fa-4x"></i> Tools</h4>
+              <h4><i className="fa fa-wrench fa-4x"></i> Tools</h4>
               <li>Git</li>
               <li>PostgreSQL</li>
               <li>MySQL</li>
@@ -55,8 +55,28 @@ const Skillspage = () => (
               <li>Heroku</li>
             </ul>
           </div>
+          </div>
+          <div className='row'>
+          <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered holder'>
+            <ul className="skillList">
+              <h4><i className="fa fa-plus fa-4x"></i> Additional</h4>
+              <li>Scrum methodology</li>
+              <li>Sketch wireframing</li>
+              <li>Adobe Photoshop</li>
+              <li>Visual Studio</li>
+              <li>Asana</li>
+              <li>Trello</li>
+            </ul>
+          </div>
+          <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered holder'>
+            <ul className="skillList">
+              <h4><i className="fa fa-graduation-cap fa-4x"></i> Education</h4>
+              <li>Brown University</li>
+              <li>Hack Reactor</li>
+            </ul>
+          </div>
+          </div>
         </div>
-      </div>
     </div>
 </RouteTransition>
 
