@@ -26,7 +26,7 @@ video {
   background-size: cover;
 }
 
-.jumbotron {
+.homepageFrame {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -130,4 +130,32 @@ ul {
   margin-top: 20px;
   position: absolute;
   font-weight: lighter;
+}
+
+.portfoliobg {
+  background-color: springgreen;
+  padding-bottom: 50px;  
+  overflow: hidden;
+  min-height: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.portfolioheader {
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.portfolioFrame {
+
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-img-top {
+  max-width: 100%;
 }

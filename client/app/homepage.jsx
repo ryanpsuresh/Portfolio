@@ -2,7 +2,7 @@ import React from 'react';
 import Video from 'react-html5video';
 import { Link } from 'react-router';
 import { OverlayTrigger, Tooltip } from 'react-bootstrap';
-const mp4 = require('../public/video.mp4');
+import mp4 from '../public/video.mp4';
 
 const Homepage = () => (
   <div>
@@ -10,11 +10,11 @@ const Homepage = () => (
       <source src={mp4} type="video/mp4"/> Your browser does not support the video tag. 
     </Video>
       <div className="container valign-wrapper" id="header">
-        <div className="jumbotron">
+        <div className="jumbotron homepageFrame">
         <div className='col s12'>
         <div className='page-icons'>
           <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
-            <Link className="btn btn-default link" to='/projectspage' >Projects</Link>
+            <Link className="btn btn-default link" to='/projectspage' >Portfolio</Link>
             <Link className="btn btn-default link" to='/projectspage' >Resume</Link>
             <Link className="btn btn-default link" to='/skillspage' >Skills</Link>
         </div>

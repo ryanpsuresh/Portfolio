@@ -2,7 +2,8 @@ import React from 'react';
 import Video from 'react-html5video';
 import { Link } from 'react-router';
 import { RouteTransition } from 'react-router-transition';
-import { OverlayTrigger, Tooltip } from 'react-bootstrap';
+import travelAppImage from '../public/TravelApp.png';
+
 
 const Projectspage = () => (
   <RouteTransition
@@ -12,52 +13,31 @@ const Projectspage = () => (
   atActive={{ translateX: 0 }}
   mapStyles={styles => ({ transform: `translateX(${styles.translateX}%)` })}
 >
-  <div className="skillsbg">
-      <div className="container" id="skills">
-        <div className="row center-align">
-          <Link className="btn btn-default homebutton" to='/'>Home</Link>
-          <div className="skillsheader">
-            <h1>PROJECTS</h1> 
+  <div className="portfoliobg">
+      <div className="container">
+        <Link className="btn btn-default homebutton" to='/'>Home</Link>
+        <div className="portfolioheader">
+          <h1>PORTFOLIO</h1> 
+        </div>
+        <div className='row'>
+          <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
+            <div className='jumbotron portfolioFrame'>
+              <div className="card stack">
+              <h4 className="card-title">Travel App</h4>
+              <img className="card-img-top" src={travelAppImage} alt="Card image cap"/>
+              <div className="card-block">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" className="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
-          <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
-            <ul className="skillList">
-              <h4><i className="fa fa-book fa-4x"></i><span className='headers'>Languages</span></h4>
-              <li>JavaScript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SQL</li>
-              <li>Python</li>
-            </ul>
+        </div>
           </div>
-          <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
-            <ul className="skillList">
-              <h4><i className="fa fa-skyatlas fa-4x"></i> <span className='headers'>Frameworks</span></h4>
-              <li>React.js</li>
-              <li>Redux</li>
-              <li>AngularJS</li>
-              <li>Node.js</li>
-              <li>Express.js</li>
-              <li>D3.js</li>
-              <li>Backbone.js</li>
-              <li>jQuery</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-          <div className='col-xs-4 col-sm-4 col-md-4 col-lg-4 col-centered holder'>
-            <ul className="skillList">
-              <h4><i className="fa fa-database fa-4x"></i> <span className='headers'>Tools</span></h4>
-              <li>Git</li>
-              <li>PostgreSQL</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>Webpack</li>
-              <li>Jasmine</li>
-              <li>Heroku</li>
-            </ul>
+          <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
           </div>
         </div>
       </div>
     </div>
+
 </RouteTransition>
 
 );
