@@ -27,7 +27,7 @@ const APP_DIR = path.resolve(__dirname, 'client/app');
             loader: 'html-loader?attrs[]=video:src'
           }, 
           {
-            test: /\.(mp4|png)$/,
+            test: /\.(mp4|png|pdf)$/,
             loader: 'url-loader?limit=10000&mimetype=video/mp4'
           },
          ],
