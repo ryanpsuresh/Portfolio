@@ -58,7 +58,8 @@ video {
   color: white;
 }
 
-.icons a:hover, #skills h1 a {
+.icons a:hover, .page-icons a:hover{
+  cursor: pointer;
   color: black;
 }
 
@@ -67,10 +68,6 @@ video {
   color: white;
   font-weight: lighter;
   width: 175px;
-}
-
-.page-icons a:hover, #skills h1 a {
-  color: black;
 }
 
 .btn-group-lg>.btn {
