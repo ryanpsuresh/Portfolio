@@ -26,7 +26,7 @@ video {
   background-size: cover;
 }
 
-.homepageFrame {
+#homepageFrame {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -34,7 +34,8 @@ video {
   -moz-transform: translateX(-50%) translateY(-55%);
   -webkit-transform: translateX(-50%) translateY(-55%);
   transform: translateX(-50%) translateY(-55%);
-  background: rgba(148,148,148, .2);
+  background: rgba(148,148,148, .3);
+  padding: 30px;
 }
 
 #header {
@@ -86,7 +87,7 @@ video {
 }
 
 .skillsbg {
-  background-color:rgb(107,218,237);
+  background-color: rgb(140,218,255);
   padding-bottom: 50px;  
   overflow: hidden;
   min-height: 100%;
@@ -131,7 +132,7 @@ ul {
 }
 
 .portfoliobg {
-  background-color: springgreen;
+  background-color: rgb(110,84,120);
   padding-bottom: 230px;  
   overflow: hidden;
   min-height: 100%;

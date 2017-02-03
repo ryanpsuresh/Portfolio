@@ -11,7 +11,7 @@ const Homepage = () => (
       <source src={mp4} type="video/mp4"/> Your browser does not support the video tag. 
     </Video>
     <div className="container valign-wrapper" id="header">
-      <div className="jumbotron homepageFrame">
+      <div className="jumbotron" id='homepageFrame'>
         <div className='col s12'>
           <div className='page-icons'>
             <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
