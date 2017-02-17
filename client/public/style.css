@@ -106,7 +106,7 @@ video {
 }
 
 .skillsheader h1 {
-  font-size: 45px;
+  font-size: 3em;
 }
 
 .skillList {
@@ -117,7 +117,7 @@ video {
 }
 
 .headers {
-  font-size: 30px;
+  font-size: 1.3em;
 }
 
 .skillList li {
