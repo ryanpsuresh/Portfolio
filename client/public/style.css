@@ -86,6 +86,10 @@ video {
   padding-right: 20px;
 }
 
+#btnrow {
+  padding-bottom: 10px; 
+}
+
 .skillsbg {
   background-color: rgb(140,218,255);
   padding-bottom: 50px;  

@@ -14,7 +14,7 @@ const Homepage = () => (
       <div className="jumbotron" id='homepageFrame'>
         <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
           <div className='page-icons'>
-            <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <div className="btn-group btn-group-lg" id='btnrow' role="group" aria-label="Basic example">
               <Link className="btn btn-default link" to='/projectspage'>Portfolio</Link>
               <a className="btn btn-default link" href={pdf}>Resume</a>
               <Link className="btn btn-default link" to='/skillspage'>Skills</Link>

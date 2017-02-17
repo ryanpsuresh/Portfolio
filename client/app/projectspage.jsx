@@ -20,7 +20,7 @@ const Projectspage = () => (
           <h1>PORTFOLIO</h1> 
         </div>
         <div className='row'>
-          <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
+          <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-centered'>
             <div className='jumbotron portfolioFrame'>
               <div className="card stack">
                 <h2 className="card-title">Travel App</h2>
@@ -33,7 +33,7 @@ const Projectspage = () => (
               </div>
             </div>
           </div>
-          <div className='col-xs-6 col-sm-6 col-md-6 col-lg-6 col-centered'>
+          <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-centered'>
             <div className='jumbotron portfolioFrame'>
               <div className="card stack">
                 <h2 className="card-title">RehJeks</h2>
