@@ -12,7 +12,7 @@ const Homepage = () => (
     </Video>
     <div className="container valign-wrapper" id="header">
       <div className="jumbotron" id='homepageFrame'>
-        <div className='col s12'>
+        <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
           <div className='page-icons'>
             <div className="btn-group btn-group-lg" role="group" aria-label="Basic example">
               <Link className="btn btn-default link" to='/projectspage'>Portfolio</Link>
@@ -27,7 +27,7 @@ const Homepage = () => (
         <div className="col s12">
           <h2>Software Engineer</h2> 
         </div>
-        <div className="col s12">
+        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <div className="icons">
             <ul>
               <li><OverlayTrigger placement='bottom' overlay={<Tooltip id="tooltip"><strong>github</strong></Tooltip>}><a href="https://github.com/ryanpsuresh" target="_blank"><i className="fa fa-github fa-2x"></i></a></OverlayTrigger></li>
