@@ -37,7 +37,7 @@ const Projectspage = () => (
           <div className='col-xs-12 col-sm-6 col-md-6 col-lg-6 col-centered'>
             <div className='jumbotron portfolioFrame'>
               <div className="card stack">
-                <h2 className="card-title">Aleck</h2>
+                <h2 className="card-title">Smart Aleck</h2>
                 <img className="card-img-top" src={aleckImage} alt="Card image cap"/>
                 <div className="card-block">
                   <p className="card-text">A search application that converts user speech into text and retrieves data based on the content.</p>
