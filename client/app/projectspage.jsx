@@ -37,27 +37,27 @@ const Projectspage = () => (
           <div className='col-xs-12 col-sm-6 col-md-6 col-lg-6 col-centered'>
             <div className='jumbotron portfolioFrame'>
               <div className="card stack">
-                <h2 className="card-title">RehJeks</h2>
-                <img className="card-img-top" src={rehjeksImage} alt="Card image cap"/>
+                <h2 className="card-title">Aleck</h2>
+                <img className="card-img-top" src={aleckImage} alt="Card image cap"/>
                 <div className="card-block">
-                  <p className="card-text">A learning based platform designed to help users enhance their regular expression knowledge</p>
-                  <a href="www.regexcess.com" className="btn btn-primary portfoliobutton">Website</a>
-                  <a href="https://github.com/BackAlleyHax/RehJeks" className="btn btn-primary portfoliobutton pull-right">Github</a>
+                  <p className="card-text">A search application that converts user speech into text and retrieves data based on the content.</p>
+                  <a href="http://www.smartaleckpro.com/#/" className="btn btn-primary portfoliobutton">Website</a>
+                  <a href="https://github.com/ryanpsuresh/Aleck" className="btn btn-primary portfoliobutton pull-right">Github</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <div className='row'>
-          <div className='col-xs-12 col-sm-6 col-md-6 col-lg-6 col-centered'>
+        <div className='col-xs-12 col-sm-6 col-md-6 col-lg-6 col-centered'>
             <div className='jumbotron portfolioFrame'>
               <div className="card stack">
-                <h2 className="card-title">Aleck</h2>
-                <img className="card-img-top" src={aleckImage} alt="Card image cap"/>
+                <h2 className="card-title">RehJeks</h2>
+                <img className="card-img-top" src={rehjeksImage} alt="Card image cap"/>
                 <div className="card-block">
-                  <p className="card-text">A search application that converts user speech into text and retrieves data based on the content.</p>
-                  <a href="http://ec2-35-167-66-182.us-west-2.compute.amazonaws.com:8000/#/" className="btn btn-primary portfoliobutton">Website</a>
-                  <a href="https://github.com/ryanpsuresh/Aleck" className="btn btn-primary portfoliobutton pull-right">Github</a>
+                  <p className="card-text">A learning based platform designed to help users enhance their regular expression knowledge</p>
+                  <a href="www.regexcess.com" className="btn btn-primary portfoliobutton">Website</a>
+                  <a href="https://github.com/BackAlleyHax/RehJeks" className="btn btn-primary portfoliobutton pull-right">Github</a>
                 </div>
               </div>
             </div>
