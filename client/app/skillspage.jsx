@@ -22,6 +22,7 @@ const Skillspage = () => (
             <ul className="skillList">
               <h4><i className="fa fa-book fa-3x"></i> <span className='headers'>Languages</span></h4>
               <li>JavaScript</li>
+              <li>React Native</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>SQL</li>
